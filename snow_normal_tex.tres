@@ -1,0 +1,11 @@
+[gd_resource type="NoiseTexture" load_steps=2 format=2]
+
+[ext_resource path="res://snow_noise.tres" type="OpenSimplexNoise" id=1]
+
+[resource]
+flags = 3
+width = 1280
+height = 1280
+seamless = true
+as_normalmap = true
+noise = ExtResource( 1 )
